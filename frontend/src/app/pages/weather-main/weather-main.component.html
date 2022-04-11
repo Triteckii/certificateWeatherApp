@@ -1,0 +1,12 @@
+<div class="app-page">
+    <div class="app-page__header">
+      <h1>Please enter zip-code</h1>
+    </div>
+    <div class="app-page__content">
+      <div class="wrapper">
+        <app-search (addZipCode)="addZipLocation($event)"></app-search>
+      </div>
+    </div>
+</div>
+<img [src]="icon" alt="">
+<app-weather-card></app-weather-card>
